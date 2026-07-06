@@ -2,6 +2,10 @@
 
 A **Student Manager App** built with **React (Vite)** that demonstrates core React concepts including **State Hooks (`useState`)**, **Rendering**, and the **Component Lifecycle (`useEffect`)**.
 
+## 🌐 Live Demo
+
+**Live Application:** https://studentmngmt.vercel.app
+
 ---
 
 # 📂 Folder Structure
@@ -177,19 +181,13 @@ http://localhost:5173
 
 Users can enter student information through the form and add it to the list.
 
----
-
 ### Display Student List
 
 The application displays all students using the `.map()` method.
 
----
-
 ### Delete Student
 
 Each student card contains a Delete button that removes the student using the `filter()` method.
-
----
 
 ### Edit Student (Bonus)
 
@@ -197,19 +195,13 @@ Clicking the Edit button loads the student's data back into the form.
 
 After making changes, clicking **Update** replaces the existing student information instead of creating a new record.
 
----
-
 ### Empty Field Validation (Bonus)
 
 The form cannot be submitted unless all required fields are completed.
 
----
-
 ### Duplicate Roll Number Validation (Bonus)
 
 Students cannot be added if another student already has the same roll number.
-
----
 
 ### Search by Roll Number (Bonus)
 
