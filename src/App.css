@@ -1,0 +1,144 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #1f2937;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.form-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.form-card h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #6366f1;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: opacity 0.15s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.btn-primary {
+  background: #6366f1;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.list-section h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.empty-msg {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.student-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.student-info h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.student-info p {
+  margin: 2px 0;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.student-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.btn-edit {
+  background: #fbbf24;
+  color: #1f2937;
+  flex: 1;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: #fff;
+  flex: 1;
+}
